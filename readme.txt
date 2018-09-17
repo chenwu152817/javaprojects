@@ -1,44 +1,40 @@
-Î¢ĞÅ²âÊÔºÅappID£ºwx5805c9dd2aa31613
+å›è°ƒæœåŠ¡å™¨ï¼šsellfood.natapp1.cc
 
-Î¢ĞÅ²âÊÔºÅappsecret£º12a4811837f448502b4515bfbb8c1a4d
+æ”¹è™šæ‹Ÿæœºçš„æœåŠ¡å™¨é…ç½®æ˜ å°„åˆ°æœ¬åœ°ï¼švim /usr/local/nginx/conf/nginx.conf
 
-»Øµ÷·şÎñÆ÷£ºsellfood.natapp1.cc
+æ”¹é™æ€åŸŸåï¼švi /etc/sysconfig/network-scripts/ifcfg-eth0
 
-¸ÄĞéÄâ»úµÄ·şÎñÆ÷ÅäÖÃÓ³Éäµ½±¾µØ£ºvim /usr/local/nginx/conf/nginx.conf
+æ”¹hostsæ–‡ä»¶
 
-¸Ä¾²Ì¬ÓòÃû£ºvi /etc/sysconfig/network-scripts/ifcfg-eth0
-
-¸ÄhostsÎÄ¼ş
-
-¸Ä·şÎñÆ÷·¢ËÍĞÅÏ¢µ½±¾µØ·şÎñÆ÷»ñÈ¡openid
+æ”¹æœåŠ¡å™¨å‘é€ä¿¡æ¯åˆ°æœ¬åœ°æœåŠ¡å™¨è·å–openid
 sellfood.natapp1.cc/sell/wechat/qrAuthorize?returnUrl=http://www.baidu.com
-¸ÄredisµØÖ·
+æ”¹redisåœ°å€
 
-´ò¿ªÈı¸ö·şÎñÆ÷
-ĞéÄâ»ú
+æ‰“å¼€ä¸‰ä¸ªæœåŠ¡å™¨
+è™šæ‹Ÿæœº
 IDEA
-Ó³ÉäNETAPP
-SpringµÄ¿ìËÙ¸´ÖÆ¶ÔÏóBeanUtils.copyProperties(productInfo,productInfoVO);
-»ñµÃ¶ÔÏóÁĞ±íList<Integer> categoryTypeList =
+æ˜ å°„NETAPP
+Springçš„å¿«é€Ÿå¤åˆ¶å¯¹è±¡BeanUtils.copyProperties(productInfo,productInfoVO);
+è·å¾—å¯¹è±¡åˆ—è¡¨List<Integer> categoryTypeList =
         productInfoList.stream()
                 .map(e->e.getCategoryType())
                 .collect(Collectors.toList());
-°Ù¶ÈÏÂÔØ
-ÒÔÏÂÊÇÄú¶©¹ºµÄ¶©µ¥68628724509156205µÄÄÚÈİÇë×¢Òâ²éÊÕ£º
-ÕËºÅ£ºxz127tÃÜÂë£ºd65hd
-¡ïÎñ±ØÓÃµçÄÔ¸´ÖÆ¸ÃÁ´½Óµ½ä¯ÀÀÆ÷http://139.224.236.108/ ¼È²»ĞèÒª°ó¶¨ÊÖ»úºÅÂëÒ²²»»á±»·âºÅ£¬¿ìËÙÏÂÔØºÃÎÄµµ£¬³¬·½±ã
-IDEA°ÑftlÎÄ¼ş¸ñÊ½±ä³Étext¸ñÊ½
-½â¾ö°ì·¨
+ç™¾åº¦ä¸‹è½½
+ä»¥ä¸‹æ˜¯æ‚¨è®¢è´­çš„è®¢å•68628724509156205çš„å†…å®¹è¯·æ³¨æ„æŸ¥æ”¶ï¼š
+è´¦å·ï¼šxz127tå¯†ç ï¼šd65hd
+â˜…åŠ¡å¿…ç”¨ç”µè„‘å¤åˆ¶è¯¥é“¾æ¥åˆ°æµè§ˆå™¨http://139.224.236.108/ æ—¢ä¸éœ€è¦ç»‘å®šæ‰‹æœºå·ç ä¹Ÿä¸ä¼šè¢«å°å·ï¼Œå¿«é€Ÿä¸‹è½½å¥½æ–‡æ¡£ï¼Œè¶…æ–¹ä¾¿
+IDEAæŠŠftlæ–‡ä»¶æ ¼å¼å˜æˆtextæ ¼å¼
+è§£å†³åŠæ³•
 https://liuyanzhao.com/7839.html
-JQUARYÏÂÔØµØÖ·
+JQUARYä¸‹è½½åœ°å€
 http://www.jb51.net/zt/jquerydown.htm
-Oracle£º
-accept num;½ÓÊÕ´Ó¼üÅÌµÄÊäÈëÖµ
-num µØÖ·Öµ º¬Òå£ºÔÚ¸ÃµØÖ·ÉÏ±£´æÁËÖµ
-ËùÒÔ¸³ÖµµÄÊ±ºòÒªĞ´:=&num
-3ÀàÑ­»·
-±ÈÈç´òÓ¡1-10µÄÊı×Ö
-WhileÑ­»·
+Oracleï¼š
+accept num;æ¥æ”¶ä»é”®ç›˜çš„è¾“å…¥å€¼
+num åœ°å€å€¼ å«ä¹‰ï¼šåœ¨è¯¥åœ°å€ä¸Šä¿å­˜äº†å€¼
+æ‰€ä»¥èµ‹å€¼çš„æ—¶å€™è¦å†™:=&num
+3ç±»å¾ªç¯
+æ¯”å¦‚æ‰“å°1-10çš„æ•°å­—
+Whileå¾ªç¯
 declare
   pnum number:=1;
 begin
@@ -48,7 +44,7 @@ begin
   end loop;
 end;
 
-LoopÑ­»·
+Loopå¾ªç¯
 declare
   pnum number:=1;
 begin
@@ -59,7 +55,7 @@ dbms_output.put_line(pnum);
   end loop
 end
 
-ForÑ­»·
+Forå¾ªç¯
 declare
   pnum number:=1;
 begin
@@ -67,10 +63,10 @@ begin
   dbms_output.put_line(pnum);
   pnum:=pnum+1;
 end
-ÓÎ±êµÄÊôĞÔ
-%found ÓĞÓï¾äÎªtrue
-%notfound ÎŞÓï¾äÎªture
-%isopen ´ò¿ªÎªture
-%rowcount Ó°ÏìĞĞÊı fetch¹ıµÄĞĞÊı
-Ê¹ÓÃÊ±ºò
-¹â±êÃû%found
+æ¸¸æ ‡çš„å±æ€§
+%found æœ‰è¯­å¥ä¸ºtrue
+%notfound æ— è¯­å¥ä¸ºture
+%isopen æ‰“å¼€ä¸ºture
+%rowcount å½±å“è¡Œæ•° fetchè¿‡çš„è¡Œæ•°
+ä½¿ç”¨æ—¶å€™
+å…‰æ ‡å%found
